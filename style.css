@@ -1,15 +1,25 @@
 /* Le curseur */
-.cursor {
-    display: inline-block; /* Nécessaire pour que le curseur s'affiche correctement */
-    width: 2px;            /* Largeur du curseur */
-    height: 1em;           /* Hauteur adaptée au texte */
-    background-color: black; /* Couleur du curseur */
-    animation: blink 0.7s steps(1) infinite; /* Animation */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-/* Animation keyframes */
-@keyframes blink {
-    50% {
-        opacity: 0; /* Rendre le curseur invisible à 50% */
-    }
+body{
+    background-color: #75b45a;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+body .app{
+    background-color: #FE748F;
+    display: flex;
+    height: 50%;
+    border-radius: 7px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
