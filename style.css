@@ -1,0 +1,15 @@
+/* Le curseur */
+.cursor {
+    display: inline-block; /* Nécessaire pour que le curseur s'affiche correctement */
+    width: 2px;            /* Largeur du curseur */
+    height: 1em;           /* Hauteur adaptée au texte */
+    background-color: black; /* Couleur du curseur */
+    animation: blink 0.7s steps(1) infinite; /* Animation */
+}
+
+/* Animation keyframes */
+@keyframes blink {
+    50% {
+        opacity: 0; /* Rendre le curseur invisible à 50% */
+    }
+}

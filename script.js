@@ -1,5 +1,5 @@
 const  dataLowercase='qwertyuiopasdfghjklzxcvbnm';
-const dataUppercase='qwertyuiopasdfghjklzxcvbnm.toLowercase()';
+const dataUppercase='qwertyuiopasdfghjklzxcvbnm.toUppercase()';
 const number='0123456789';
 const dataSymbole='!@#$%^&*()_+{}:"<>?/,.\/';
 const rangeValue=document.getElementById('password-length')
