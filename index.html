@@ -9,9 +9,14 @@
 <body>
    <div class="app">
        <div class="range-container">
-        <input type="text" name="" id="password-output" value="Generateur de MDP "    readonly>
-        <input type="range" name="" id="password-length" min="0" max="25" value="8" oninput="document.getElementById('display-password-length').value=this.value" >
+        <input type="text" name="" id="password-output" value="Generateur de MDP "    readonly class="input-text1">
+      
+<div class="app2">
+
+    <input type="range" name="" class="input-text-2" id="password-length" min="0" max="25" value="8" oninput="document.getElementById('display-password-length').value=this.value" >
     <input type="text" name="" id="display-password-length" value="8">
+</div>
+        
 </div>
 <div class="chexkbox-container">
     <input type="checkbox" name="" id="lowercase" checked>
@@ -22,7 +27,7 @@
     <label for="number">0 - 9</label>
     <input type="checkbox" name="" id="symbole" checked>
     <label for="symbole">! - ?</label>
-</div> 
+</div><br><br><br> 
 <button id="generateButton">Generer mot de passe</button>
 </div>
 
