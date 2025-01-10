@@ -10,6 +10,8 @@
 body{
     background-color: #75b45a;
     display: flex;
+    overflow-x: hidden;
+    padding: 30px;
     height: 100vh;
     justify-content: center;
     align-items: center;
@@ -61,16 +63,7 @@ background-color: #FE748F;
     width: 50px;
     font-size: 1.3rem;
 }
-.app2{
-    /* display: flex;
-    gap:20px;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    text-align: center; */
 
-  
-}
 label{
 background: white;
     padding: 15px;
@@ -90,11 +83,7 @@ input[type='checkbox']{
     cursor: pointer;
   
 }
-/* #password-length{
-    position: absolute;
-    top: 100px;
-    left: 20px;
-} */
+
 .app2{
     display: flex;
     justify-content: center;
@@ -103,3 +92,4 @@ input[type='checkbox']{
     padding-top: 100px;
    margin-left: 0;
 }
+

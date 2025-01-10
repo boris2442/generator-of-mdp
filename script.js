@@ -36,7 +36,13 @@ function generatePassword(){
     setTimeout(()=>{
         generateButton.textContent='Generer mot de passe';
     },2000)
-}
+};
 
- generateButton.addEventListener('click', generatePassword)
+ generateButton.addEventListener('click', generatePassword);
+
+ window.onload = function() {
+    document.querySelector('.loader').style.display = 'none';
+    document.querySelector('.loader').style.transition='5s ease-out'
+  };
+  
    
