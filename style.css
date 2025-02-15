@@ -98,8 +98,9 @@ body{
 body .app{
     background-color: #FE748F;
     display: flex;
-    width: 450px;
-    height: 50%;
+    width: 90%;
+    max-width: 450px;
+    height: 450px;
     position: relative;
   padding: 20px;
     border-radius: 7px;
@@ -153,7 +154,9 @@ background: white;
     border-radius: 15px;
 }
 .chexkbox-container{
-    padding-top: 45px;
+    
+    display: flex;
+    flex-wrap: wrap;
   
   
 }
